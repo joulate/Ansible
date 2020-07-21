@@ -1,0 +1,2 @@
+---
+{router1: {device_type: cisco, host: rtr1, password: cisco123, use_session_log: On, username: admin'}}

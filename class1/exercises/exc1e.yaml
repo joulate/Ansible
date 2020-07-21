@@ -1,0 +1,17 @@
+--- 
+
+network_devices:
+  - router:
+    host: rtr1
+    username: admin
+    password: cisco123
+    device_type: cisco
+    use_session_log: On
+    ip_addresses: [1.1.1.1, 2.2.2.2, 3.3.3.3]
+  - switch:
+    host: sw1
+    username: admin
+    password: cisco1234
+    device_type: catos
+    use_session_log: On
+    ip_addresses: [1.1.1.1, 2.2.2.2, 3.3.3.3]
