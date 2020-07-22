@@ -1,0 +1,8 @@
+---
+
+- name: Exc 3a
+  hosts: localhost
+  gather_facts: False
+  tasks:
+    - debug:
+        var: ansible_host
